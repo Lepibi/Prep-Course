@@ -1,0 +1,14 @@
+Variables : es como un "lugar" al q le asignamos un nombre (q no puede ser igual a nombres q ya son utilizados por el lenguaje), para poder guardar algo y usarlo en cuaquier momento.
+hay varias formas de crear variables, entre ellas VAR, LET y CONST (esta ultima no permite que se cambie el valor de la variable como si lo permite VAR y LET.
+
+Strings : son bloques de texto q se definen siempre entre comillas para que el interprete los lea sabiendo q tipos de datos son y no los confunda.
+
+Funciones: son objetos invocables, es decir que los programas para q al ser "invocados" hagan algo con las variables q determinemos.
+las funciones tienen un bloque de codigo interno que programas para q se ejecuten al momento de ser invocadas,lo q esta ahi dentro es lo q va a determinar q realiza esta funcion.
+Podes crear una funcion partiendo de la palabra clave FUNCTION mas el nombre q quieras ponerle a la funcion (q nos sirva para recordar q hace), al lado del nombre abrir parentesis donde  podes guardar entre ellas argumentos o variables para utilizar en la funcion. finalmente hay q abrir corchetes y ahi es donde vamos a insertar el codigo q va a a utilizar la funcion para realizar lo que pedimos.
+dentro de las declaraciones podemos encontrar a RETURN que es una declaracion q nos permite retornar hacia afuera los datos que tiene adentro la funcion).cuando la funcion choca con la declaracion return, se detiene automaticamente y devuelve lo que esta programado en ese bloque de codigo.   
+
+Declaraciones : la declaracion if nos permite utilizar operadores de comparacion. podemos invocar if(),dentro de los parentesis ponemos la condicion y en funcion del resultado (true or false), abriendo corchetes puede retornar lo que sea que querramos siempre y cuando se cumplan las condiciones declaradas en el parentesis.En caso de q no se cumpla o bien podemos proponer otra alternativa con "if else" o "else" que determina q en caso de q no se cumplan las condiciones primeras, se dictamine otra accion en funcion del resultado true o false.
+
+Valores booleanos: esta conceptualmente ligado al codigo binario q es el nucleo con el q funcionan las computadoras. el sistema binario finciona con 0 y 1 solamente, es decir q hay 2 posibilidades,activar o descativar, 0 o 1. em javascript se usan los booleanos para devolver verdadero o falso.
+
